@@ -6,7 +6,7 @@ public class RotateTo : MonoBehaviour {
 
 	public float RotSpeed;
 
-	private Transform ThisTransform;
+	private Transform ThisTransform = null;
 
 	public Transform Target = null;
 

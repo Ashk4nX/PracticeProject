@@ -6,14 +6,14 @@ using UnityStandardAssets.CrossPlatformInput;
 public class Orbiter : MonoBehaviour {
 
 	public Transform Pivot = null;
+	public float PivotDistance = 5f;
+	public float RotSpeed = 10f;
 
 	private Quaternion RotDest = Quaternion.identity;
 	private Transform ThisTransform = null;
-
-	public float PivotDistance = 5f;
 	private float RotX = 0f;
 	private float RotY = 0f;
-	public float RotSpeed = 10f;
+
 
 	// Use this for initialization
 	void Awake () {

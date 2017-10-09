@@ -6,7 +6,7 @@ public class Mover : MonoBehaviour {
 
 	public float Speed;
 
-	private Transform ThisTransform;
+	private Transform ThisTransform = null;
 
 	// Use this for initialization
 	void Awake () {
