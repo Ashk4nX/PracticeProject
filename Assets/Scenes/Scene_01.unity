@@ -265,8 +265,8 @@ GameObject:
   - component: {fileID: 595897812}
   - component: {fileID: 595897811}
   - component: {fileID: 595897810}
-  m_Layer: 0
-  m_Name: Plane
+  m_Layer: 8
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -732,6 +732,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 5
   RotSpeed: 90
+  JumpForce: 10
+  FallForce: 5
+  GroundedDist: 2.5
+  IsGrounded: 1
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &1271262327
 GameObject:
   m_ObjectHideFlags: 0
